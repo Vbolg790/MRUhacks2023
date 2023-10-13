@@ -20,7 +20,7 @@ p{
 
 h1, p, li{
     font-family: 'Space Grotesk';
-    padding-left: 120px;
+    padding-left: 50px;
 }
 
 .visiontitle{
@@ -84,5 +84,21 @@ h1, p, li{
   }
 
   .flexcontainer {
+    display: flexbox;
+  }
+
+  body{
     display: flex;
+    flex-direction: column;
+  }
+
+  .herosection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .textHero{
+    display:flex;
+    flex-direction:column;
   }
