@@ -68,10 +68,17 @@ h1, p, li{
     text-decoration: none;
   }
 
-  .navbar li:nth-child(3) a {
-    color: white;
+.navbar li:nth-child(3) a {
+    color: #8244c0;
     border: 2px solid;
     padding: 5px 20px;
+    text-decoration: none;
+  }
+
+  .navbar li:nth-child(4) a {
+    color: white;
+    border: 2px solid;
+    padding: 8px 22px;
     background-color: black;
     text-decoration: none;
   }
