@@ -20,3 +20,8 @@ h1, p{
     font-family: 'Space Grotesk';
     padding-left: 30px;
 }
+
+#front-page-images {
+    height: 25%;
+    width: 25%;
+}
