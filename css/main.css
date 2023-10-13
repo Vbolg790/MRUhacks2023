@@ -8,8 +8,8 @@ h1 {
     color: rgb();
     font-size: 50px;
     font-weight: bolder;
-    margin-top: 200px;
     display: block;
+    float: left;
 }
 
 p{
@@ -74,4 +74,8 @@ h1, p, li{
     padding: 5px 20px;
     background-color: black;
     text-decoration: none;
+  }
+
+  .flexcontainer {
+    display: flex;
   }
