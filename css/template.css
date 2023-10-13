@@ -23,29 +23,6 @@ h1, p, li{
     padding-left: 50px;
 }
 
-.visiontitle{
-    text-align: center;
-
-}
-
-.vision{
-    /* text-align: center; */
-    float: right;
-    padding-right: 250px;
-}
-
-#front-page-images {
-    height: 30%;
-    width: 30%;
-    padding-right: 100px;
-}
-
-#our-vision-image {
-    height: 25%;
-    width: 25%;
-    float: left;
-}
-
 .navbar {
     float: right;
 }
@@ -91,23 +68,4 @@ h1, p, li{
   body{
     display: flex;
     flex-direction: column;
-  }
-
-  .herosection{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 100px;
-  }
-
-  .textHero{
-    display:flex;
-    flex-direction:column;
-    padding-left: 60px;
-    margin-bottom: 0;
-  }
-
-  .discoverPotential {
-    margin-bottom: 0;
-    font-size: 30pt;
   }
