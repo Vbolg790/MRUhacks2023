@@ -1,3 +1,12 @@
 body{
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
 }
+
+h1 {
+    color: brown;
+}
+
+p{
+    color: rgb(163, 47, 113);
+}
+
