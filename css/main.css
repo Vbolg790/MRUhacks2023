@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -8,5 +10,9 @@ h1 {
 
 p{
     color: rgb(163, 47, 113);
+}
+
+h1, p{
+    font-family: 'Space Grotesk';
 }
 
