@@ -5,14 +5,17 @@ body{
 }
 
 h1 {
-    color: rgb(152, 67, 169);
+    color: rgb();
 }
 
 p{
-    color: rgb(163, 47, 113);
+    color: rgb(0, 0, 0);
 }
 
 h1, p{
     font-family: 'Space Grotesk';
 }
 
+.technology{
+    color: rgb(163, 47, 113);
+    }
