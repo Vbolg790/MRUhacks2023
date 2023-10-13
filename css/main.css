@@ -29,7 +29,9 @@ h1, p, li{
 }
 
 .vision{
-    text-align: center;
+    /* text-align: center; */
+    float: right;
+    padding-right: 250px;
 }
 
 #front-page-images {
@@ -37,6 +39,11 @@ h1, p, li{
     width: 25%;
 }
 
+#our-vision-image {
+    height: 25%;
+    width: 25%;
+    float: left;
+}
 
 .navbar {
     float: right;
