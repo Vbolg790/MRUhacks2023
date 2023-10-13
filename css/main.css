@@ -20,6 +20,15 @@ h1, p, li{
     padding-left: 30px;
 }
 
+.visiontitle{
+    text-align: center;
+
+}
+
+.vision{
+    text-align: center;
+}
+
 #front-page-images {
     height: 25%;
     width: 25%;
