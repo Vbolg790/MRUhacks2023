@@ -5,7 +5,6 @@ body{
 }
 
 h1 {
-    color: rgb();
     font-size: 50px;
     font-weight: bolder;
     display: block;
@@ -86,6 +85,12 @@ h1, p, li{
 
   .flexcontainer {
     display: flexbox;
+  }
+
+  .name-your-skill-space{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
   }
 
   body{
