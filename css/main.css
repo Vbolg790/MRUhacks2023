@@ -8,16 +8,19 @@ h1 {
     color: rgb();
     font-size: 50px;
     font-weight: bolder;
+    margin-top: 200px;
+    display: block;
 }
 
 p{
     color: rgb(0, 0, 0);
     font-size: 30px;
+    display: block;
 }
 
 h1, p, li{
     font-family: 'Space Grotesk';
-    padding-left: 30px;
+    padding-left: 120px;
 }
 
 .visiontitle{
