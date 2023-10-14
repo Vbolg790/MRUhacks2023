@@ -17,14 +17,15 @@ section{
     display:flex;
     flex-direction: row;
     margin-left: 30px;
+    margin-top:70px;
 }
 
 .frontenddiv{
     margin-left:100px;
 }
 
-.frontend-image{
-    
+.frontend-img{
+    margin-left:50px;
 }
 
 .frontendtitle{
@@ -65,6 +66,6 @@ section{
     border-color: #8244c0;
     /* font-family: 'Intel'; */
     /* text-align: center; */
-
+    margin-left:48px;
 
 }
