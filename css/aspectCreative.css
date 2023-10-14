@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Space Grotesk';
+}
+
+#bodyContainer{
+    margin-top:-50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.quizImg{
+    width: 389px;
+    height: 303px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.navbarText{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+
+.headerText{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.futureText{
+    color:#8244C0;
+}
+
+.headerSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText{
+    margin-top:30px;
+    margin-bottom:0px;
+}
+
+.progInstrSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instrText {
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.optionSection{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+
+.row1, .row2{
+    display:flex;
+    flex-direction: row;
+    gap:104px;
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row3 > button{
+    grid-column:2/3;
+}
+
+.optionSection > div > button{
+    font-size:16px;
+    width:350px;
+    height:75px;
+    border-radius: 10px;
+    border: 3px solid #8244C0;
+    background: #FFFFFF;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: color 2s background-color 2s all;
+}
+
+.optionSection > div > button:hover{
+    background-color:#8244C0;
+    color:white;
+}
+
+
+.nextBtn{
+    width:226px;
+    height:76px;
+    border-radius: 10px;
+    border: 3px solid #8244C0;
+    background: #8244C0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
