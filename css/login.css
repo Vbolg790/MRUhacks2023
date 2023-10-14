@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
+
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,24 +16,69 @@ section {
     padding: 12px;
     font-size: 20px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 7px;
     width: 400px;
+    font-family: 'Space Grotesk';
+    border-color: black;
+    border-width: 2px;
+    border-radius: 3px;
 }
 
 #password {
     padding: 12px;
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 7px;
     width: 400px;
+    font-family: 'Space Grotesk';
+    border-color: black;
+    border-width: 2px;
+    border-radius: 3px;
 }
 
 #login {
     padding: 12px;
-    width: 400px;
+    width: 430px;
     border-radius: 7px;
+    color: white;
     background-color: #8244c0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
 }
+
+form {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.google {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: black;
+    color: black;
+    font-family: 'Space Grotesk';
+}
+
+.literally-a-single-or {
+    padding: 0;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+a.forgot-password {
+    padding-left: 290px;
+}
+
 
 
