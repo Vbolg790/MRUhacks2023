@@ -23,7 +23,8 @@ section{
     margin-left:100px;
 }
 
-.backend-image{
+.backend-img{
+    margin-left: 50px;
 }
 
 .backendtitle{
@@ -62,6 +63,7 @@ section{
     padding: 15px;
     width: 300px;
     border-color: #3545FA;
+    margin-left: 50px;
     /* font-family: 'Intel'; */
     /* text-align: center; */
 
