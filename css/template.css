@@ -110,41 +110,155 @@ h1, p, li{
     text-decoration: underline;
   }
 
-  .about-link {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #8244c0;
-    color: #8244c0;
-  }
 
-  .about-link:hover {
-    background-color: #8244c0;
-    color: white;
-  }
+  /* CSS */
+.aboutBtn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: #8244c0 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #8244C0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
 
-  .courses-link {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #3545FA;
-    color: #3545FA;
-  }
+.aboutBtn:hover,
+.aboutBtn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#9c66d1;
+  color:white;
+}
 
-  .courses-link:hover {
-    background-color: #3545FA;
-    color: white;
-  }
+.aboutBtn:hover {
+  transform: translateY(-1px);
+}
 
-  .signup-link {
-    background-color: black;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+.aboutBtn:active {
+  background-color: #8244C0;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color:white;
+  transform: translateY(0);
+}
 
-  .signup-link:hover {
-    background-color: #ffffff;
-    color: #8244c0;
-    text-decoration: underline;
-  }
+/* CSS */
+.coursesBtn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #3545FA;
+  border-radius: .25rem;
+  box-shadow: #3545FA 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #3545FA;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left:20px;
+}
+
+.coursesBtn:hover,
+.coursesBtn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#5f6cfa;
+  color:white;
+}
+
+.coursesBtn:hover {
+  transform: translateY(-1px);
+}
+
+.coursesBtn:active {
+  background-color: #3545FA;
+  border-color: #3545FA;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color:white;
+  transform: translateY(0);
+}
+
+ /* CSS */
+.signupBtn {
+  align-items: center;
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left:20px;
+}
+
+.signupBtn:hover,
+.signupBtn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#9c66d1;
+  color:white;
+}
+
+.signupBtn:hover {
+  transform: translateY(-1px);
+}
+
+.signupBtn:active {
+  background-color: #8244C0;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color:white;
+  transform: translateY(0);
+}
