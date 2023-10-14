@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
+
+h1, p{
+    font-family: 'Space Grotesk';
+}
+
+.header{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 500px;
+
+}
+
+.courseContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.class1{
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.classname1{
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: bold;
+    color: #8244C0;
+}
+
+.d1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d1-text{
+    font-size: 20px;
+}
+
+.bottom1{
+    display:flex;
+}
+.semes1{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.register1{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 125px;
+    background-color: #8244C0;
+    color: white;
+    border-radius: 7px;
+    border-color: #8244C0;
+    padding: 20px
+}
+
+
+
+.class2{
+    margin-left: 0px;
+    margin-right:20px
+}
+
+.classname2{
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: bold;
+    color: #8244C0;
+}
+
+.d2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d2-text{
+    font-size: 20px;
+}
+
+.bottom2{
+    display:flex;
+    margin-top: 70px;
+}
+.semes2{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.register2{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 125px;
+    background-color: #8244C0;
+    color: white;
+    border-radius: 7px;
+    border-color: #8244C0;
+    padding: 20px
+}
+
+
+
+.class3{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.classname3{
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: bold;
+    color: #8244C0;
+}
+
+.d3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.d3-text{
+    font-size: 20px;
+}
+
+.bottom3{
+    display:flex;
+    margin-top: 70px;
+}
+.semes3{
+    font-size:22px;
+    font-weight: bold;
+}
+
+.register3{
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 125px;
+    background-color: #8244C0;
+    color: white;
+    border-radius: 7px;
+    border-color: #8244C0;
+    padding: 20px
+}
