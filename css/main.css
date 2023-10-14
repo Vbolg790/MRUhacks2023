@@ -157,8 +157,10 @@ h1, p, li{
   }
 
   .frontendtab{
-    margin-left: 100px;
-    margin-right: 835px;
+    /* margin-left: 100px;
+    margin-right: 835px; */
+    padding-right: 200px;
+    padding-left: 80px;
   }
 
   .frontenddev{
@@ -204,8 +206,8 @@ h1, p, li{
     font-size: 20px;
   }
 
-  #skill-image{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+
+section {
+  display: flex;
+  flex-direction: row;
 }
