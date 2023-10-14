@@ -116,7 +116,7 @@ h1, p, li{
 
   .discoverPotential {
     margin-bottom: 0;
-    font-size: 30pt ;
+    font-size: 30pt;
   }
 
   .skillspace{
@@ -159,3 +159,14 @@ h1, p, li{
     display: inline;
   }
 
+  .frontenddev{
+    font-family: 'Space Grotesk';
+    font-size: 48px;
+    font-weight: 700;
+
+  }
+
+  .overview{
+    font-size: 30px;
+    font-weight: 700;
+  }
