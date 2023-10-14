@@ -44,24 +44,12 @@ h1, p{
 
 .bottom1{
     display:flex;
+    justify-content: space-around;
 }
 .semes1{
     font-size:22px;
     font-weight: bold;
 }
-
-.register1{
-    font-family: 'Inter';
-    font-size: 20px;
-    margin-left: 125px;
-    background-color: #8244C0;
-    color: white;
-    border-radius: 7px;
-    border-color: #8244C0;
-    padding: 20px
-}
-
-
 
 .class2{
     margin-left: 0px;
@@ -87,23 +75,12 @@ h1, p{
 .bottom2{
     display:flex;
     margin-top: 70px;
+    justify-content: space-around;
 }
 .semes2{
     font-size:22px;
     font-weight: bold;
 }
-
-.register2{
-    font-family: 'Inter';
-    font-size: 20px;
-    margin-left: 125px;
-    background-color: #8244C0;
-    color: white;
-    border-radius: 7px;
-    border-color: #8244C0;
-    padding: 20px
-}
-
 
 
 .class3{
@@ -130,19 +107,93 @@ h1, p{
 .bottom3{
     display:flex;
     margin-top: 70px;
+    justify-content: space-around;
 }
 .semes3{
     font-size:22px;
     font-weight: bold;
 }
 
-.register3{
-    font-family: 'Inter';
-    font-size: 20px;
-    margin-left: 125px;
-    background-color: #8244C0;
-    color: white;
-    border-radius: 7px;
-    border-color: #8244C0;
-    padding: 20px
+
+
+.navbar{
+    margin-top:10px;
+    margin-right:40px;
 }
+
+.class1, .class2, .class3{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+/* CSS */
+.register1, .register2, .register3 {
+    align-items: center;
+    background-color: #8244C0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: #8244c0 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .register1:hover,
+  .register1:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color:#9c66d1;
+    color:white;
+  }
+
+  .register2:hover,
+  .register2:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color:#9c66d1;
+    color:white;
+  }
+
+  .register3:hover,
+  .register3:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color:#9c66d1;
+    color:white;
+  }
+  
+  .register1:hover,
+  .register2:hover,
+  .register3:hover {
+    transform: translateY(-1px);
+  }
+  
+  .register1:active,
+  .register2:active,
+  .register3:active {
+    background-color: #8244C0;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color:white;
+    transform: translateY(0);
+  }
