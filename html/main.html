@@ -11,7 +11,7 @@
     <div class="flexcontainer">
         <h1>&#123; Tech : <span style="color: #8244c0;">Future &#125;</span> </h1> 
         <nav class="navbar">
-            <a class="home-link" href="">Home</a></li>
+            <a class="homeBtn" href="">Home</a></li>
             <a class="aboutBtn" href="about.html" class="test">About Us</a></li>
             <a class="coursesBtn" href="courses.html">Courses</a></li>
             <a class="signupBtn" href="signup.html">Sign Up</a></li>
@@ -30,38 +30,78 @@
     
 
     <div class="spacesection">
-        <p class="name-your-skill-space">Name your <span style="color: #3545FA;">Skill Space</span></p>
+        <p class="name-your-skill-space">Name your <span class="spanText" style="color: #3545FA;">Skill Space</span></p>
 
         <div class="skillspace">
-            <p class = "frontendbar"><span style="color: white;">FRONT-END</span></p>
-            <p class="backendbar"> BACK-END</p>
-            <p class="datasciencebar"> DATA SCIENCE</p>
+            <p class="frontendbar x">FRONT-END</p>
+            <p class="backendbar x"> BACK-END</p>
+            <p class="datasciencebar x"> DATA SCIENCE</p>
         </div>
 
 
-    <section>
-        <div class="frontendtab">
-            <p class="frontenddev">Front End <br>Development</p> 
-            <p class="overview"><b>Overview</b></p>
-            <p class="overviewtext">Involves creating and maintaining the user interface <br> and user experience of websites
-                and web <br> applications to ensure they are visually appealing, <br> user-friendly, and responsive</p>
-            <p class="reccourse"><b>Recommended Courses</b></p>
-            <p class="excourses">COMP 2XXX: Web Development I<br> COMP 3XXX: Web Development II<br> COMP 4XXX: Web Development III <br> COMP 4XXX: Human-Computer Interaction</p>
-            <p class="career"><b>Career Paths</b></p>
-            <p class="careereg">Web Design<br> UX/UI Designer<br> Mobile App Developer<br> Quality Assurance Engineer</p>
+    <section class="sectionContainer">
+        <div class="frontendContainer">
+            <div class="frontendtab">
+                <p class="frontenddev">Front End <br>Development</p> 
+                <p class="overview"><b>Overview</b></p>
+                <p class="overviewtext">Involves creating and maintaining the user interface <br> and user experience of websites
+                    and web <br> applications to ensure they are visually appealing, <br> user-friendly, and responsive</p>
+                <p class="reccourse"><b>Recommended Courses</b></p>
+                <p class="excourses">COMP 2XXX: Web Development I<br> COMP 3XXX: Web Development II<br> COMP 4XXX: Web Development III <br> COMP 4XXX: Human-Computer Interaction</p>
+                <p class="career"><b>Career Paths</b></p>
+                <p class="careereg">Web Design<br> UX/UI Designer<br> Mobile App Developer<br> Quality Assurance Engineer</p>
+            </div>
+            <!-- <div class="careerpaths"> -->
+                
+            <!-- </div> -->
+    
+            <div id="skillpic">
+                <img src="../images/Safe Space Image.svg" id="skill-image" title="Skill Image" alt="skill">
+            </div>
         </div>
-        <!-- <div class="careerpaths"> -->
-            
-        <!-- </div> -->
-
-        <div id="skillpic">
-            <img src="../images/Safe Space Image.svg" id="skill-image" title="Skill Image" alt="skill">
+        <div class="backendContainer hidden">
+            <div class="frontendtab">
+                <p class="frontenddev">Back End <br>Development</p> 
+                <p class="overview"><b>Overview</b></p>
+                <p class="overviewtext">Involves creating and maintaining the user interface <br> and user experience of websites
+                    and web <br> applications to ensure they are visually appealing, <br> user-friendly, and responsive</p>
+                <p class="reccourse"><b>Recommended Courses</b></p>
+                <p class="excourses">COMP 2333: System Adminstration<br> COMP 3533: Web Development III<br> COMP 2533: Architecture and Operating Systems <br> COMP 4333: Computing Machinery</p>
+                <p class="career"><b>Career Paths</b></p>
+                <p class="careereg">System Administrator<br> Security Engineer<br> Network Engineer<br></p>
+            </div>
+            <!-- <div class="careerpaths"> -->
+                
+            <!-- </div> -->
+    
+            <div id="skillpic">
+                <img src="../images/backendSpace.svg" id="skill-image" title="Skill Image" alt="skill">
+            </div>
+        </div>
+        <div class="datascienceContainer hidden">
+            <div class="frontendtab">
+                <p class="frontenddev">Data Science <br>Development</p> 
+                <p class="overview"><b>Overview</b></p>
+                <p class="overviewtext">Data science is the field of extracting insights and knowledge from data, employing statistical, mathematical, and machine learning techniques to inform decision-making, predict future trends, 
+                    and provide valuable business insights. Data scientists work with large datasets to uncover hidden patterns and drive data-driven solutions in a wide range of industries.</p>
+                <p class="reccourse"><b>Recommended Courses</b></p>
+                <p class="excourses">COMP 2433: Database I<br> COMP 3533: Advanced Database<br> COMP 2533: System Analysis <br> COMP 4333: Software Testing</p>
+                <p class="career"><b>Career Paths</b></p>
+                <p class="careereg">Business Intelligence Analyst<br> Systems Analyst<br> Quality Assurance Engineer<br></p>
+            </div>
+            <!-- <div class="careerpaths"> -->
+                
+            <!-- </div> -->
+    
+            <div id="skillpic">
+                <img class='dsImage' src="../images/dsImage.svg" id="skill-image" title="Skill Image" alt="skill">
+            </div>
         </div>
     </section>
 
     </div>
     
-    
+<script src="../js/main.js"></script>
 </body>
 </html>
 

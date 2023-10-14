@@ -2,7 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
 
+@keyframes fadeIn{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
 
+body{
+    animation: fadeIn 1s;
+}
 h1, p, a{
     font-family: 'Space Grotesk';
 }

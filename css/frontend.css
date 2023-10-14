@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
+@keyframes fadeIn{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
 
-
+body{
+    animation: fadeIn 1s;
+}
 h1, p, a{
     font-family: 'Space Grotesk';
 }
@@ -11,6 +17,11 @@ h1, p, a{
 h1{
     font-size: 35px;
     margin-left: 20px;
+    margin-right:100px;
+}
+
+body{
+    margin-left:100px;
 }
 
 
@@ -70,3 +81,57 @@ section{
     margin-left:48px;
 
 }
+
+.navbar{
+    margin-top:10px;
+    margin-right:40px;
+}
+
+.coursesButton {
+    align-items: center;
+    background-color: #9c66d1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin-left:50px;
+  }
+  
+  .coursesButton:hover,
+  .coursesButton:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #FFFFFF;
+    background-color:#8244C0;
+  }
+  
+  .coursesButton:hover {
+    transform: translateY(-1px);
+  }
+  
+  .coursesButton:active {
+    background-color: #8244C0;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: #FFFFFF;
+    transform: translateY(0);
+  }

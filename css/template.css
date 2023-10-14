@@ -138,6 +138,7 @@ h1, p, li{
   touch-action: manipulation;
   vertical-align: baseline;
   width: auto;
+  margin-left:20px;
 }
 
 .aboutBtn:hover,
@@ -159,6 +160,11 @@ h1, p, li{
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color:white;
   transform: translateY(0);
+}
+
+.navbar{
+  margin-top:10px;
+  margin-right:40px;
 }
 
 /* CSS */
@@ -257,6 +263,57 @@ h1, p, li{
 
 .signupBtn:active {
   background-color: #8244C0;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color:white;
+  transform: translateY(0);
+}
+
+ /* CSS */
+ .homeBtn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left:20px;
+}
+
+.homeBtn:hover,
+.homeBtn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#000000;
+  color:white;
+}
+
+.homeBtn:hover {
+  transform: translateY(-1px);
+}
+
+.homeBtn:active {
+  background-color: #000000;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color:white;
