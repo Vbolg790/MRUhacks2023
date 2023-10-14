@@ -169,8 +169,10 @@ h1, p, li{
   }
 
   .frontendtab{
-    margin-left: 150px;
-    margin-right: 835px;
+    /* margin-left: 100px;
+    margin-right: 835px; */
+    padding-right: 200px;
+    padding-left: 80px;
   }
 
   .frontenddev{
