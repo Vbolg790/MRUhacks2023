@@ -2,21 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
 
-h1, p, button{
+h1, p{
     font-family: 'Space Grotesk';
 }
 
 .header{
-    font-size: 35px;
+    font-size: 38px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 75px;
     margin-left: 50px;
     margin-right: 500px;
 
 }
 
 .courseContainer{
-    margin-top: -15px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -31,7 +30,7 @@ h1, p, button{
     font-family: 'Inter';
     font-size: 25px;
     font-weight: bold;
-    color: #8244C0;
+    color: #3545FA;
 }
 
 .d1{
@@ -61,7 +60,7 @@ h1, p, button{
     font-family: 'Inter';
     font-size: 25px;
     font-weight: bold;
-    color: #8244C0;
+    color: #3545FA;
 }
 
 .d2{
@@ -93,7 +92,7 @@ h1, p, button{
     font-family: 'Inter';
     font-size: 25px;
     font-weight: bold;
-    color: #8244C0;
+    color: #3545FA;
 }
 
 .d3{
@@ -130,10 +129,10 @@ h1, p, button{
 /* CSS */
 .register1, .register2, .register3 {
     align-items: center;
-    background-color: #8244C0;
+    background-color: #3545FA;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: .25rem;
-    box-shadow: #8244c0 0 1px 3px 0;
+    box-shadow: #3545FA 0 1px 3px 0;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
@@ -192,7 +191,7 @@ h1, p, button{
   .register1:active,
   .register2:active,
   .register3:active {
-    background-color: #8244C0;
+    background-color: #3545FA;
     border-color: rgba(0, 0, 0, 0.15);
     box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
     color:white;

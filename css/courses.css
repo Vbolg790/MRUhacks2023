@@ -2,3 +2,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
 
+.frontendtitle, .backendtitle, .datasciencetitle{
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 7px;
+    margin-left: 25px;
+    width: 350px
+}
+
+.frontendtext, .backendtext, .datasciencetext{
+    font-size: 20px;
+
+}
+
+.frontendcourses, .backendcourses, .datasciencecourses{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.frontendtitle{
+    color: white;
+    background-color: #8244C0;
+}
+
+.backendtitle{
+    color: white;
+    background-color: #68C8B2;
+}
+
+.datasciencetitle{
+    color:white;
+    background-color: #3545FA;
+}
