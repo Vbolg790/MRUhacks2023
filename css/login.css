@@ -61,8 +61,8 @@ form {
 .google {
     border-style: solid;
     border-width: 2px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 115px;
+    padding-right: 115px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-color: black;
@@ -76,9 +76,21 @@ form {
     font-size: 24px;
 }
 
-a.forgot-password {
-    padding-left: 290px;
+.forgot-password {
+    padding-left: 310px;
+    padding-top: 40px;
+    color: rgb(50, 50, 50);
+    font-size: 15px;
 }
 
+.rip {
+    font-size: 15px;
+    text-align: end;
+    padding-right: 160px;
+}
 
-
+.signup {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
