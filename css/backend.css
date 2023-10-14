@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk&display=swap');
+
+
+h1, p, a{
+    font-family: 'Space Grotesk';
+}
+
+
+h1{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.backenddiv{
+    margin-left:100px;
+}
+
+.backend-image{
+}
+
+.backendtitle{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.backendtext{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+
+.backendcareer{
+    font-size: 35px;
+    font-weight:bold;
+    color: #3545FA;
+    margin-bottom: -10px;
+}
+
+.backendpaths{
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 2;
+}
+
+.courses{
+    background-color: #3545FA;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 15px;
+    width: 300px;
+    border-color: #3545FA;
+    /* font-family: 'Intel'; */
+    /* text-align: center; */
+
+
+}
