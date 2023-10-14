@@ -46,12 +46,12 @@ document.getElementById("nextBtn").onclick = function(e){
     }
 
     if(spaceWinner == "Creative"){
-        location.href = "main.html";
+        location.href = "frontend.html";
     }
     if(spaceWinner == "Logic"){
-        location.href = "login.html";
+        location.href = "backend.html";
     }
     if(spaceWinner == "Analytics"){
-        location.href = "signup.html";
+        location.href = "datascience.html";
     }
 }

@@ -14,6 +14,7 @@ h1{
 }
 
 section{
+    margin-top:70px;
     display:flex;
     flex-direction: row;
     margin-left: 30px;
@@ -23,8 +24,8 @@ section{
     margin-left:100px;
 }
 
-.datasci-image{
-    
+.datasci-img{
+    margin-left:50px;
 }
 
 .datasci-title{
@@ -65,6 +66,6 @@ section{
     border-color: #68C8B2;
     /* font-family: 'Intel'; */
     /* text-align: center; */
-
+    margin-left:48px;
 
 }
