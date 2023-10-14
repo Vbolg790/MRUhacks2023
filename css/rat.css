@@ -37,3 +37,14 @@ p{
     right:130px; 
     width:500px;
 }
+
+.ratvid{
+    display: flex;
+}
+
+.ratspin4{
+    position: absolute;
+    top: 79px;
+    right: 500px;
+    width: 366px;
+}
