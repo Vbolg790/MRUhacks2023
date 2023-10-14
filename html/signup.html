@@ -22,20 +22,19 @@
 
     <form method="post" action="mailto:contact@techfuture.com" align="center">
         <div class="signupcont">
-        <p>Sign up for &#123; Tech : <span style="color: #8244c0;">Future &#125;</span></p>
-        
-        <label for="namef"><b>First Name: </b></label>
-        <input type="text" placeholder="Enter First Name" required>
-        <br>
-        <label for="namel"><b>Last Name: </b></label>
-        <input type="text" placeholder="Enter Last Name" required>
-        <br>
-        <label for="email"><b>Email: </b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+            <p>Sign up for &#123; Tech : <span style="color: #8244c0;">Future &#125;</span></p><br>
+            
+            <form>
+            <a class="google" href="https://www.google.com/" target="_blank">Continue with Google</a><br>
+            
+            <p class="or">or</p>
 
-        <div class="buttons">
-            <input type="reset" value="Reset" class="button" />
-            <input type="submit" value="Sign Up" class="button"/>
+            <input type="text" id="email" placeholder="Email" name="email" required>
+            <br><br>
+            <input type="text" id="password" placeholder="Password" name="password" required><br><br>
+            
+            <button id="submit" type="button">Sign Up!</button>
+            </form>
         </div>
 
         <div class="redirect">
