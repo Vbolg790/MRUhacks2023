@@ -77,3 +77,60 @@ h1, p, li, label, .buttons{
   .redirect {
     width: 500px;
   }
+
+    .signupcont{
+      font-family: "Inter";
+
+    }
+
+  .google{
+    color: black;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 7px;
+    display: flex;
+    display: inline;
+    height: 30px;
+    padding: 11px;
+    padding-left: 107px;
+    padding-right: 107px;
+    /* width: 400px; */
+    /* padding:12px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top:50px;
+    width: 300px; */
+  }
+
+  .or{
+    
+  }
+
+  #email {
+    padding: 12px;
+    font-family: "Inter";
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 400px;
+  }
+
+  #password {
+    padding: 12px;
+    font-family: "Inter";
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    width: 400px;
+  }
+
+  #submit {
+    color: white;
+    padding: 12px;
+    font-family: "Inter";
+    font-size: 20px;
+    width: 430px;
+    border-radius: 7px;
+    background-color: #8244c0;
+  }
