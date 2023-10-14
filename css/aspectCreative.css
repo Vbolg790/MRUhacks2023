@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
+@keyframes fadeIn{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
 body{
     height: 100vh;
     width: 100vw;
     font-family: 'Space Grotesk';
+    animation: fadeIn 2s;
 }
 
 #bodyContainer{
@@ -64,30 +69,27 @@ body{
 }
 
 .optionSection{
-    margin-top:10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:25px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    margin-top:30px;
 }
 
-.row1, .row2{
+.col1{
     display:flex;
-    flex-direction: row;
-    gap:104px;
+    flex-direction: column;
+    grid-column:1/2;
+    row-gap:30px;
 }
 
-.row3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.row3 > button{
+.col2{
+    display:flex;
+    flex-direction:column;
     grid-column:2/3;
+    row-gap:30px;
 }
 
-.optionSection > div > button{
+.op{
     font-size:16px;
     width:350px;
     height:75px;
@@ -95,20 +97,121 @@ body{
     border: 3px solid #8244C0;
     background: #FFFFFF;
     box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    transition: color 2s background-color 2s all;
+    transition: color 0.5s ease-in;
+    transition: background-color 0.75s ease-in;
 }
-
-.optionSection > div > button:hover{
-    background-color:#8244C0;
-    color:white;
-}
-
 
 .nextBtn{
+    font-size:16px;
     width:226px;
     height:76px;
     border-radius: 10px;
     border: 3px solid #8244C0;
     background: #8244C0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left:124px;
 }
+
+.clicked{
+    background-color: #8244C0;
+    color:white;
+}
+
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#9c66d1;
+  color:white;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #8244C0;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color:white;
+  transform: translateY(0);
+}
+
+.button-7 {
+    align-items: center;
+    background-color: #9c66d1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-7:hover,
+  .button-7:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #FFFFFF;
+    background-color:#8244C0;
+  }
+  
+  .button-7:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-7:active {
+    background-color: #8244C0;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: #FFFFFF;
+    transform: translateY(0);
+  }
