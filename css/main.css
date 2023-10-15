@@ -335,3 +335,8 @@ h1, p, li{
 .hidden{
   display:none;
 }
+
+
+.sectionContainer{
+  margin-top: 20px;
+}
